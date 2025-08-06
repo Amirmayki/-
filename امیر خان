@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>امیر خان</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 id="logo">امیر خان</h1>
+            <ul>
+                <li><a href="#home" data-fa="خانه" data-en="Home">خانه</a></li>
+                <li><a href="#about" data-fa="درباره امیر خان" data-en="About">درباره امیر خان</a></li>
+                <li><a href="#portfolio" data-fa="نمونه کارها" data-en="Portfolio">نمونه کارها</a></li>
+                <li><a href="#contact" data-fa="تماس" data-en="Contact">تماس</a></li>
+            </ul>
+            <button id="lang-btn">EN</button>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2 data-fa="انواع عطر و ادکلن و لوازم آرایشی" data-en="Hello! I'm ...">انواع عطر و ادکلن و لوازم آرایشی</h2>
+        <p data-fa="به فروشگاه امیر خان خوش آمدید." data-en="Welcome to my website.">به فروشگاه امیر خان خوش آمدید</p>
+    </section>
+
+    <section id="about">
+        <h2 data-fa="Amir khan my" data-en="About Me">Amir khan my</h2>
+        <p data-fa="فروشگاه امیر خان فقط یک فروشگاه نیست بلکه یک دنیا برای خوش بو شدن و خوش رویی است." data-en="Here you can read about me.">فروشگاه امیر خان فقط یک فروشگاه نیست بلکه یک دنیا برای خوش بو شدن و خوش رویی است.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2 data-fa="نمونه کارها" data-en="Portfolio">نمونه کارها</h2>
+        <div class="gallery">
+            <img src="F:\Amir\IMG_20250604_164252.jpg" alt="ادکلن حیاتی">
+            <img src="images/sample2.jpg" alt="نمونه ۲">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 data-fa="تماس" data-en="Contact">تماس</h2>
+        <form action="https://formspree.io/f/xgvzngpp" method="POST">
+            <input type="text" name="name" placeholder="نام" required>
+            <input type="email" name="email" placeholder="ایمیل" required>
+            <textarea name="message" placeholder="پیام شما" required></textarea>
+            <button type="submit" data-fa="ارسال" data-en="Send">ارسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p data-fa="تمام حقوق محفوظ است." data-en="All rights reserved.">تمام حقوق محفوظ است.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
